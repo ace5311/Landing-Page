@@ -1,0 +1,188 @@
+* {
+    font-family: "Roboto", arial;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header h4 {
+    flex: 4;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+header a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 12px;
+    margin:10px;
+}
+
+.Hero {
+    background-color: #1F2937;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+    gap: 10px;
+    padding: 50px;
+}
+.Hero #Text {
+    flex: 0 0 600px;
+    display:flex;
+   flex-direction: column;
+   text-align: left;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    margin:0;
+}
+
+.Hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Hero a {
+    margin-top: 5px;
+}
+
+.Hero img {
+    width: 550px;
+    height: 350px;
+    align-self: center;
+}
+
+.Hero .SignUp{
+    border: 1px solid #3882F6;
+    border-radius: 6px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    text-decoration: none;
+    font-weight: bold;
+    width:65px;
+}
+
+.Support {
+    margin: 50px 200px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.FourPics {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+#FstPic, #SndPic, #TrdPic, #FthPic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:150px;
+    text-align: center;
+    margin: 20px;
+}
+
+.FourPics img {
+    width:150px;
+    height:150px;
+}
+
+.FourPics p {
+    color:#1F2937;
+    font-size: 12px;
+}
+
+.Quote {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction:column;
+    padding: auto 200px;
+    flex-wrap: wrap;
+}
+
+.Quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width:800px;
+    align-self:center;
+}
+
+.Quote #Author {
+    font-size: 24px;
+    font-weight: bold;
+    font-style:normal;
+    color:black;
+    align-self:flex-end;
+    text-align:center;
+}
+
+.CallToAction {
+    background: #3882F6;
+    border-radius: 8px;
+    background-position: center;
+    padding: 8px 8x;
+    margin: 50px auto;
+    width: 75%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: #F9FAF8;
+    flex-wrap:wrap;
+}
+
+.CallToAction .Text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.CallToAction .Text h3 {
+    font-size:24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.CallToAction .Text p {
+    font-size: 18px; 
+    margin:0;
+}
+
+.SignUp{
+    border: 1px solid #F9FAF8;
+    padding: 5px 40px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 2px;
+    width: 100%;
+    position:relative;
+    bottom:0;
+}
